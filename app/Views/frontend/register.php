@@ -45,7 +45,7 @@
                                         <div class="col-12 col-sm-6 ">
                                             <div class="form-group">
                                                 <select class="form-control" name="country">
-                                                    <option value="">Select</option>
+                                                    <option value="">Select Country</option>
                                                     <?php 
                                                         foreach($country as $row)
                                                         {

@@ -36,6 +36,14 @@ $routes->get('register', 'Home::register');
 $routes->match(['get', 'post'], 'Home/insert', 'Home::insert');
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
 
+// Starting the admin routes
+
+$routes->group('admin', static function ($routes) {
+    $routes->get('/', 'Admin\Admin::index');
+    $routes->get('dashboard', 'Admin\Dashboard::index');
+    $routes->get('blog', 'Admin\Blog::index');
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
