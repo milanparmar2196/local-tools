@@ -28,7 +28,7 @@ class Users extends Migration
 				'constraint' => 255,
 			],
 			'phone' => [
-				'type' => 'VARCHAR',
+				'type' => 'INT',
 				'constraint' => 15,
 				'null' => true,
 			],
@@ -48,10 +48,59 @@ class Users extends Migration
 				'constraint' => 255,
 				'default' => false,
 			],
-			'type' => [
+			'email_verified_at' => [
+				'type' => 'TIMESTAMP',
+				'constraint' => 6,
+			],
+			'customer_type' => [
+				'type' => 'INT',
+				'constraint' => 11,
+				'default' => '1',
+			],
+			'remember_token' => [
+				'type' => 'VARCHAR',
+				'constraint' => 128,
+				'null' => true,
+			],
+			'image' => [
 				'type' => 'VARCHAR',
 				'constraint' => 255,
-				'default' => 'business',
+				'null' => true,
+			],
+			'city' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+				'null' => true,
+			],
+			'zipcode' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+				'null' => true,
+			],
+			'state' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+				'null' => true,
+			],
+			'stripe_id' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+				'null' => true,
+			],
+			'pm_type' => [
+				'type' => 'VARCHAR',
+				'constraint' => 255,
+				'null' => true,
+			],
+			'pm_last_four' => [
+				'type' => 'VARCHAR',
+				'constraint' => 4,
+				'null' => true,
+			],
+			'trial_ends_at' => [
+				'type' => 'TIMESTAMP',
+				'constraint' => 6,
+				'null' => true,
 			],
 			'created_at datetime default current_timestamp',
 			'updated_at datetime default current_timestamp on update current_timestamp',

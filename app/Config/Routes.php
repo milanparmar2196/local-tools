@@ -30,11 +30,15 @@ $routes->set404Override(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('login', 'Home::index');
+$routes->get('login', 'Home::login');
 $routes->match(['get', 'post'], 'Home/loginAuth', 'Home::loginAuth');
 $routes->get('register', 'Home::register');
 $routes->match(['get', 'post'], 'Home/insert', 'Home::insert');
-$routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
+ $routes->get('/profile', 'Profile::index');
+// $routes->group('user', static function($routes){
+//     $routes->get('/profile', 'Profile::index');
+// });
+
 
 // Starting the admin routes
 

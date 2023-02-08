@@ -1,4 +1,4 @@
-
+<?php echo $this->render('include/login_header'); ?>
             <section class="login-section pb-5">
                 <div class="container">
                     <div class="row">
@@ -69,4 +69,4 @@
                     </div>
                 </div>
             </section>
-       
+            <?php echo $this->render('include/login_footer'); ?>

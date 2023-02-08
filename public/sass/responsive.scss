@@ -1,0 +1,147 @@
+@media screen and (max-width: 767px){
+    .login-box{
+        width: 100%;
+    }
+
+    .select-location, .search-filter, .btn-post, .login-link, .hide-m {
+        display: none;
+    }
+
+    .hide-l{
+        display: block;
+    }
+
+    .grid-view, .yellow-footer, .footer-grid{
+        display: block;
+    }
+
+    .yellow-footer{
+        text-align: center;
+    }
+
+    .yellow-footer figure{
+        margin: 1em;
+    }
+
+    .yellow-footer > .logo, .btn-area, .free-shipping, .money, .support, .secure-payment{
+        margin-bottom: 1.25em;
+    }
+
+    .footer-grid{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .productbox{
+        margin-bottom: 1.25em;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .center-m{
+        justify-content: center;
+    }
+
+    .footer-logo{}
+
+    .hide-d{
+        display: block!important;
+    }
+
+    .sub-header {
+        padding: 0 0 1.25em 0;
+    }
+
+    .main{
+        padding: 0 1.25em 1.25em 1.25em;
+    }
+
+    .navbar-header{
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .push{
+        display: block;
+    }
+    
+    .logo{
+        flex: 2;
+    }
+
+    .logo img {
+        width: 5em;
+    }
+
+    .nav-top{
+        display: none;
+    }
+
+    .filter-sidebar{
+        display: none;
+    }
+
+    .fs-mobile{
+        width: 90%;
+        left: auto;
+        position: absolute;
+    }
+
+  }
+
+  @media screen and (min-device-width: 280px) and (max-device-width: 320px)  { 
+    .m-sidebar{
+        width: 100%;
+    }
+  }
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px)  { 
+    .grid-view {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .push{
+        display: block;
+    }
+
+    .select-location, .search-filter, .btn-post, .login-link, .hide-m {
+        display: none;
+    }
+
+    .hide-d{
+        display: block!important;
+    }
+
+    .navbar-header{
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .logo{
+        flex: 1;
+    }
+
+    .btn-post, .login-link, .hide-m {
+        display: block!important;
+    }
+
+    .filter-sidebar{
+        display: none;
+    }
+
+    .select-filter{
+        display: none;
+    }
+}
+

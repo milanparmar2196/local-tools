@@ -1,4 +1,4 @@
-
+<?php echo $this->render('include/login_header'); ?>
             <section class="login-section pb-5">
                 <div class="container">
                     <div class="row">
@@ -34,17 +34,24 @@
                                     <div class="row">
                                         <div class="col-4 col-sm-2 ">
                                             <div class="form-group">
-                                                <input type="text" name="country_pre" class="form-control " placeholder="+62">
+                                                <input list="country-phone" type="text" name="country_pre" class="form-control " placeholder="+62">
+                                                <datalist id="country-phone">
+                                                    <?php 
+                                                        foreach ($country as $row){
+                                                            echo '<option value="'.$row["phonecode"].'"></option>';
+                                                        } 
+                                                    ?>
+                                                </datalist>
                                             </div>
                                         </div>
                                         <div class="col-8 col-sm-4 ">
                                             <div class="form-group">
-                                                <input type="number" name="phone" class="form-control" placeholder="Phone Number">
+                                                <input type="number" name="phone" class="form-control" placeholder="Phone Number" min="10">
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-6 ">
                                             <div class="form-group">
-                                                <select class="form-control" name="country">
+                                                <select class="form-select form-control" name="country" ><span class="caret"></span>
                                                     <option value="">Select Country</option>
                                                     <?php 
                                                         foreach($country as $row)
@@ -88,8 +95,8 @@
                                             <div class="form-group">
                                                 <div class="check-box_inr">
                                                     <div class="user-type active">
-                                                        <input name="type" type="radio" id="user-type-Business" class="r-input" checked value="business" />
-                                                        <label class="value"  value="business" for="user-type-Business">Business User</label>
+                                                        <input name="customer_type"  type="radio" id="user_type_Business" class="r-input" checked value="1" />
+                                                        <label class="value"  for="user_type_Business">Business User</label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -98,8 +105,8 @@
                                             <div class="form-group u-type-c">
                                                 <div class="check-box_inr">
                                                     <div class="user-type"> 
-                                                        <input name="type" id="user-type-customer" type="radio"  class="r-input" value="customer">
-                                                        <label class="value" for="user-type-customer" value="customer">Customer User</label>
+                                                        <input name="customer_type"  id="user_type_customer" type="radio"  class="r-input" value="2" >
+                                                        <label class="value" for="user_type_customer" value="customer">Customer User</label>
                                                     </div>
                                                 </div>
                                                 
@@ -143,4 +150,18 @@
                     </div>
                 </div>
             </section>
-        
+        <style>
+            /* Chrome, Safari, Edge, Opera */
+            .login-section input::-webkit-outer-spin-button,
+            .login-section input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+
+            /* Firefox */
+            .login-section input[type=number] {
+            -moz-appearance: textfield;
+            }
+        </style>
+
+<?php echo $this->render('include/login_footer'); ?>
