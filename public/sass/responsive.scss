@@ -48,7 +48,7 @@
         justify-content: center;
     }
 
-    .footer-logo{}
+    // .footer-logo{}
 
     .hide-d{
         display: block!important;
@@ -91,6 +91,14 @@
         width: 90%;
         left: auto;
         position: absolute;
+    }
+
+    .main-section{
+        width: 100%;
+    }
+
+    .slick-slide .productbox{
+        margin-bottom: 0px!important;
     }
 
   }
@@ -142,6 +150,14 @@
 
     .select-filter{
         display: none;
+    }
+
+    .main-section{
+        width: 100%;
+    }
+
+    .top-nav-listing{
+        width: 40% !important;
     }
 }
 

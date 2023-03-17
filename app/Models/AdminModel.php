@@ -7,14 +7,14 @@ use CodeIgniter\Model;
 class AdminModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'admins';
+    protected $table            = 'users';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['first_name','last_name','country_pre','phone','country','email','password','customer_type'];
 
     // Dates
     protected $useTimestamps = false;
@@ -39,4 +39,12 @@ class AdminModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function updateStatus($data, $id)
+    {
+        
+        $query = $this->db->table('users')->update($data, array('id' => $id));
+        
+        return $query;
+    }
 }

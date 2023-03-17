@@ -116,7 +116,7 @@ margin: 0;
     border-color:var(--color-text-3);
   }
   .form-group{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   .form-check-label{
     font-family: var(--body-font);

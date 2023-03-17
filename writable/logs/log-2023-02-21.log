@@ -1,0 +1,390 @@
+INFO - 2023-02-21 07:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 07:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:36:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Seller\SellerProductController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:37:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Seller\SellerProductController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 07:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:40:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\UserController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:40:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\UserController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:40:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:40:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 07:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:40:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Seller\SellerController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:40:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Seller\SellerController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:41:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Seller\SellerController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:41:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Seller\SellerController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 07:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-02-21 07:41:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Seller\SellerProductController::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-21 10:50:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`provider_type` VARCHAR(255) NOT NULL,
+	`surname` VARCHAR(25...' at line 13 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(151): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 10:52:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`provider_type` VARCHAR(255) NOT NULL,
+	`surname` VARCHAR(25...' at line 13 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(153): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 10:53:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`provider_type` VARCHAR(255) NOT NULL,
+	`surname` VARCHAR(25...' at line 13 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(154): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 10:54:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`phone_number` VARCHAR(255) NOT NULL,
+	`provider_desc` TEXT ...' at line 13 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(145): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 10:56:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`provider_type` VARCHAR(255) NOT NULL,
+	`surname` VARCHAR(25...' at line 13 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 10:59:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NOT NULL,
+	`provider_type` VARCHAR(255) NOT NULL,
+	`surname` VARCHAR(25...' at line 13 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 11:19:08 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 11:36:06 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(166): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 11:43:34 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(167): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 11:43:37 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(167): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 11:52:35 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(167): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 11:56:50 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 12:16:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id`),
+	CONSTRAINT `post_ads_seller_id_foreign` FOREIGN KEY (`s...' at line 36 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 12:20:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id`),
+	CONSTRAINT `post_ads_seller_id_foreign` FOREIGN KEY (`s...' at line 36 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+WARNING - 2023-02-21 12:44:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$db is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-21 12:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 12:52:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id`),
+	CONSTRAINT `post_ads_seller_id_foreign` FOREIGN KEY (`s...' at line 36 in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 12:53:13 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 12:55:18 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 12:57:31 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 12:57:58 --> mysqli_sql_exception: Can't create table `local_tools`.`post_ads` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-21-092835_CreatePostAdsMigration.php(168): CodeIgniter\Database\Forge->createTable('post_ads')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreatePostAdsMigration->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-02-21 13:02:41 --> mysqli_sql_exception: Unknown table 'local_tools.categories' in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `cat...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `cat...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `cat...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `cat...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-11-043326_CreateCategory.php(51): CodeIgniter\Database\Forge->dropTable('categories')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateCategory->down()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-02-21 13:02:41 --> mysqli_sql_exception: Table 'brands' already exists in C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\local-tools-devlop\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\local-tools-devlop\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\local-tools-devlop\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\local-tools-devlop\app\Database\Migrations\2023-02-16-112453_Brands.php(33): CodeIgniter\Database\Forge->createTable('brands')
+#5 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(877): App\Database\Migrations\Brands->up()
+#6 C:\xampp\htdocs\local-tools-devlop\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\local-tools-devlop\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\local-tools-devlop\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\local-tools-devlop\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\local-tools-devlop\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\local-tools-devlop\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}

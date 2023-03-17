@@ -72,3 +72,15 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var any = header.getElementsByClassName("filter-box-m");
+for (var i = 0; i < any.length; i++) {
+  any[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}

@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="col-12 col-sm-7 col-xl-7 flex">
                             <div class="login_img-wrapper">
-                                <img src="<?php echo base_url(); ?>/assets/img/login-img.png" class="img-fluid" />
+                                <img src="<?php echo base_url(); ?>/public/assets/img/login-img.png" class="img-fluid" />
                             </div>
                         </div>
                         <div class="col-12 col-sm-5 col-xl-5 flex">
@@ -37,7 +37,7 @@
                                         </div>
                                         <div class="col">
                                             <!-- Simple link -->
-                                            <a href="#!" class="float-end link">Forgot password?</a>
+                                            <a href="<?= base_url('/forgot-password'); ?>" class="float-end link">Forgot password?</a>
                                           </div>
                                       </div>
                                       <div class="col-12">
@@ -50,7 +50,7 @@
                                     <a href="<?php echo base_url(); ?>/register" class="link link-register">If you don’t have an account? Register here</a>
                                 </div>
                                 <div class="login-with-socials">
-                                    <h3 class="lines-on-sides mt-4 mb-4">Instant Signup</h3>
+                                    <h3 class="lines-on-sides mt-4 mb-4">&nbsp;Instant Signup&nbsp;</h3>
                                 </div>
                                 <div class="d-flex justify-content-between mt-1">
                                     <ul class="social-icons-login d-flex justify-content-between w-100">

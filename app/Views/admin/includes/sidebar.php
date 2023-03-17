@@ -1,94 +1,139 @@
-<nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <ul class="nav">
+<!-- Main Sidebar Container -->
+<?php 
+$session = session();
+?>
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="<?=base_url()?>/public/assets/img/logo.png" alt="AdminLTE Logo" class="brand-image img-circle "
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">Local Tools </span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="<?=base_url()?>/public/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block"><?php echo $session->get('first_name').' '.$session->get('last_name'); ?></a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              <i class="mdi mdi-grid-large menu-icon"></i>
-              <span class="menu-title">Dashboard</span>
+            <a href="<?= base_url('/admin'); ?>" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Dashboard
+              </p>
             </a>
           </li>
-          <li class="nav-item nav-category">UI Elements</li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="menu-icon mdi mdi-floor-plan"></i>
-              <span class="menu-title">UI Elements</span>
-              <i class="menu-arrow"></i> 
+            <a href="<?= base_url('/admin/users'); ?>" class="nav-link">
+            <i class="nav-icon fas fa-thin fa-user"></i>
+              <p>
+                Users
+              </p>
             </a>
-            <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item nav-category">Forms and Datas</li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
-              <i class="menu-icon mdi mdi-card-text-outline"></i>
-              <span class="menu-title">Form elements</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="form-elements">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic Elements</a></li>
-              </ul>
-            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
-              <i class="menu-icon mdi mdi-chart-line"></i>
-              <span class="menu-title">Charts</span>
-              <i class="menu-arrow"></i>
+            <a href="<?= base_url('/admin/category'); ?>" class="nav-link">
+              <i class="nav-icon fas fa-clone"></i>
+              <p>
+                Category
+              </p>
             </a>
-            <div class="collapse" id="charts">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">ChartJs</a></li>
-              </ul>
-            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-              <i class="menu-icon mdi mdi-table"></i>
-              <span class="menu-title">Tables</span>
-              <i class="menu-arrow"></i>
+            <a href="<?= base_url('/admin/post_ads'); ?>" class="nav-link">
+              <i class="nav-icon fas fa-shopping-cart"></i>
+              <p>
+                Post Ads
+              </p>
             </a>
-            <div class="collapse" id="tables">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.html">Basic table</a></li>
-              </ul>
-            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-              <i class="menu-icon mdi mdi-layers-outline"></i>
-              <span class="menu-title">Icons</span>
-              <i class="menu-arrow"></i>
+            <a href="<?= base_url('/admin/comments'); ?>" class="nav-link">
+              <i class="nav-icon fa fa-regular fa-comments"></i>
+              <p>
+                Comments
+              </p>
             </a>
-            <div class="collapse" id="icons">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-              </ul>
-            </div>
           </li>
-          <li class="nav-item nav-category">pages</li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="menu-icon mdi mdi-account-circle-outline"></i>
-              <span class="menu-title">User Pages</span>
-              <i class="menu-arrow"></i>
+            <a href="<?= base_url('/admin/brands'); ?>" class="nav-link">
+            <i class="nav-icon fa fa-book"></i>
+              <p>
+              Brands
+              </p>
             </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-              </ul>
-            </div>
           </li>
-          <li class="nav-item nav-category">help</li>
           <li class="nav-item">
-            <a class="nav-link" href="http://bootstrapdash.com/demo/star-admin2-free/docs/documentation.html">
-              <i class="menu-icon mdi mdi-file-document"></i>
-              <span class="menu-title">Documentation</span>
+            <a href="<?= base_url('/admin/feedback'); ?>" class="nav-link">
+              <i class="nav-icon fa fa-regular fa-comment"></i>
+              <p>
+              Feedbacks
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('/admin/orders'); ?>" class="nav-link">
+              <i class="nav-icon fas fa-shopping-cart"></i>
+              <p>
+              Orders
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('/admin/payments'); ?>" class="nav-link">
+              <i class="nav-icon fa fa-regular fa-credit-card"></i>
+              <p>
+              Payments
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('/admin/tax'); ?>" class="nav-link">
+              <i class="nav-icon fa fa-solid fa-dollar-sign"></i>
+              <p>
+              Taxes
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('/admin/subscription'); ?>" class="nav-link">
+              <i class="nav-icon fa fa-briefcase"></i>
+              <p>
+              Subscriptions
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('/admin/configurationss'); ?>" class="nav-link">
+              <i class="nav-icon fa fa-cog"></i>
+              <p>
+              Configurationss
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url('/admin/logout'); ?>" class="nav-link">
+              <i class="nav-icon fa fa-sign-out"></i>
+              <p>
+              Logout
+              </p>
             </a>
           </li>
         </ul>
       </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>

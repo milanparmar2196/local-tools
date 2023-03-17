@@ -11,7 +11,7 @@ class Users extends Migration
         $this->forge->addField([
 			'id' => [
 				'type' => 'INT',
-				'constraint' => 11,
+				'constraint' => 6,
 				'unsigned' => true,
 				'auto_increment' => true,
 			],
@@ -57,6 +57,11 @@ class Users extends Migration
 				'constraint' => 11,
 				'default' => '1',
 			],
+			'is_active' => [
+				'type' => 'INT',
+				'constraint' => 11,
+				'default' => '1',
+			],
 			'remember_token' => [
 				'type' => 'VARCHAR',
 				'constraint' => 128,
@@ -65,7 +70,8 @@ class Users extends Migration
 			'image' => [
 				'type' => 'VARCHAR',
 				'constraint' => 255,
-				'null' => true,
+				'default' => 'users-dummy.png',
+
 			],
 			'city' => [
 				'type' => 'VARCHAR',
@@ -106,7 +112,7 @@ class Users extends Migration
 			'updated_at datetime default current_timestamp on update current_timestamp',
 		]);
 
-		$this->forge->addKey('id', true);
+		$this->forge->addPrimaryKey('id', true);
 		$this->forge->createTable('users');
     }
 

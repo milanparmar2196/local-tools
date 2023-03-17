@@ -69,6 +69,12 @@
     left: auto;
     position: absolute;
   }
+  .main-section {
+    width: 100%;
+  }
+  .slick-slide .productbox {
+    margin-bottom: 0px !important;
+  }
 }
 @media screen and (min-device-width: 280px) and (max-device-width: 320px) {
   .m-sidebar {
@@ -107,5 +113,11 @@
   }
   .select-filter {
     display: none;
+  }
+  .main-section {
+    width: 100%;
+  }
+  .top-nav-listing {
+    width: 40% !important;
   }
 }/*# sourceMappingURL=responsive.css.map */

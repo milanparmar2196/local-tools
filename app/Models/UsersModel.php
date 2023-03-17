@@ -14,7 +14,7 @@ class UsersModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['first_name','last_name','country_pre','phone','country','email','password','customer_type' ];
+    protected $allowedFields    = ['first_name','last_name','country_pre','phone','country','email','password','customer_type', 'remember_token' ];
 
     // Dates
     protected $useTimestamps = true;
@@ -39,4 +39,19 @@ class UsersModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function update_profile($data, $id){
+        
+        $query = $this->db->table('users')->update($data, array('id' => $id));
+        return $query;
+    }
+
+    public function getuserdetails($id){
+        $data = $this->db->table('users')
+            ->select('users.*,tc.name as  country_name')           
+            ->join('tbl_countries tc','tc.id=users.country','LEFT')
+            ->where(array('users.id' => $id))
+            ->get()->getRowArray();	
+            return $data;
+    }
 }
