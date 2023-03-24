@@ -140,3 +140,23 @@ input[type=number] {
 .error {
     color: red;
 }
+
+a.active {
+	color: #FFC10E;
+}
+
+.searchBtn {
+	padding-left: 10px;
+}
+
+.cstm-border-left-radius0-location {
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	font-size: 0.875em;
+	background-color: #F6F7FB !important;
+	background-position: right 0.625em top 0.438em;
+}
+
+.select-distance {
+	width: 10%;
+}
