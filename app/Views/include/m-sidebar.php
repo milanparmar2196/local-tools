@@ -1,28 +1,67 @@
 <div class="m-sidebar" id="MSidebar">
-            <div class="menu-header">
-                <div class="menu-logo">
-                    <img src="<?php echo base_url(); ?>/public/images/logo.svg">
-                </div>
-                <div class="push-menu">
-                    <a href="javascript:void(0)" onclick="closeNav()"><img src="<?php echo base_url(); ?>/public/images/icons/menu.svg"></a>
-                </div>
-            </div>
-            <ul>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/aggriculture.svg"> Agricultural machinery</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/car-truck.svg"> Car/Truck Trailer </a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/concrete.svg">Concrete Drill</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/construction.svg">Construction machinery</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/cordless.svg">Cordless Device</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/drawing.svg">Drying and heating devices</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/foresting.svg">Foresting machines</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/garden.svg">Garden tool</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/hand-tool.svg">Hand tools</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/KFZ-tool.svg">KFZ tool</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/lift-frame.svg">Lift frame / hoist</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/loader.svg">Loader & Roller Shutter</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/measuring.svg">Measuring device</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/pump.svg">Pump</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/KFZ-tool.svg">Röttelplatten & Compaction</a></li>
-                <li><a href="#"><img src="<?php echo base_url(); ?>/public/images/icons/small.svg">Small Appliances for Metal Wood</a></li>
-            </ul>
+    <div class="menu-header">
+        <div class="menu-logo">
+            <img src="<?php echo base_url(); ?>/public/images/logo.svg">
         </div>
+        <div class="push-menu">
+            <a href="javascript:void(0)" onclick="closeNav()"><img src="<?php echo base_url(); ?>/public/images/icons/menu.svg"></a>
+        </div>
+    </div>
+    <ul>
+        <?php
+        if (isset($cat_subcategories)) {
+        ?>
+            <li>
+                <a role="button" onclick="categoryFilter(<?= $cat_subcategories->id ?>)">
+                    <img src="<?php echo base_url(); ?>/public/images/icons/<?= $cat_subcategories->icon ?>"><b><?= $cat_subcategories->name; ?></b>
+                </a>
+                <ul>
+                    <?php
+                    foreach ($cat_subcategories->subCategories as $subCategory) {
+                        $active = '';
+                        if ($subCategory['id'] == $filters['subCategory']) {
+                            $active = 'active';
+                        }
+                    ?>
+                        <li>
+                            <a role="button" onclick="subCategoryFilter(<?= $subCategory['id'] ?>)" class="<?= $active ?>">
+                                <img src="<?php echo base_url(); ?>/public/images/icons/<?= $subCategory['icon'] ?>"><?= $subCategory['name']; ?>
+                            </a>
+                        </li>
+                    <?php
+                    }
+                    ?>
+                </ul>
+            </li>
+            <?php
+        } else {
+            if (isset($categories)) {
+                foreach ($categories as $category) {
+            ?>
+                    <li>
+                        <a role="button" onclick="categoryFilter(<?= $category['id'] ?>)">
+                            <img src="<?php echo base_url(); ?>/public/images/icons/<?= $category['icon'] ?>"><?= $category['name']; ?>
+                        </a>
+                    </li>
+        <?php
+                }
+            }
+        }
+        ?>
+    </ul>
+</div>
+
+<script>
+    function categoryFilter(categoryId) {
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.delete('sub-category');
+        urlParams.set('category', categoryId);
+        window.location.search = urlParams;
+    }
+
+    function subCategoryFilter(subCategoryId) {
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.set('sub-category', subCategoryId);
+        window.location.search = urlParams;
+    }
+</script>

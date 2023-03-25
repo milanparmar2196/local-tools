@@ -30,7 +30,9 @@ $routes->set404Override(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'HomepageController::index');
-$routes->match(['get','post'], 'HomepageController/loadmore' , 'HomepageController::loadmore');
+$routes->get('/category/(:num)', 'HomepageController::category');
+$routes->get('/get-posts', 'HomepageController::getPosts');
+$routes->get('/get-zipcodes', 'HomepageController::getZipcodes');
 $routes->get('lang/{locale}', 'Language::index');
 $routes->get('login', 'Home::login');
 $routes->match(['get', 'post'], 'Home/loginAuth', 'Home::loginAuth');

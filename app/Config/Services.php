@@ -3,6 +3,9 @@
 namespace Config;
 
 use CodeIgniter\Config\BaseService;
+use App\Models\ZipcodesGermanyModel;
+use App\Models\CategoryModel;
+use App\Models\PostAdsModel;
 
 /**
  * Services Configuration file.
@@ -29,4 +32,26 @@ class Services extends BaseService
      *     return new \CodeIgniter\Example();
      * }
      */
+
+    public static function getNavBarData()
+    {
+        $zipcodesGermanyModel = new ZipcodesGermanyModel();
+        $data['zipcodes'] = $zipcodesGermanyModel->getAllZipcodes();
+
+        $data['distances'] = [
+            5 => '+ 5 km',
+            10 => '+ 10 km',
+            20 => '+ 20 km',
+            30 => '+ 30 km',
+            50 => '+ 50 km',
+            100 => '+ 100 km',
+            150 => '+ 150 km',
+            200 => '+ 200 km',
+        ];
+
+        $categoryModel = new CategoryModel();
+        $data['categories'] = $categoryModel->getAllCategories();
+
+        return $data;
+    }
 }
