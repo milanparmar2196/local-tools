@@ -502,14 +502,12 @@
 											</div>
 										</div>
 										<div class="col-12 text-center addpbtn">
-											<button type="button" id="submit_coordinates" class="btn-post mt-3 mb-3">Add to Map</button>
+											<button type="button" id="submit_coordinates" onclick="addToMap()" class="btn-post mt-3 mb-3">Add to Map</button>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 " id="g_mapp">
-								<iframe width="100%" height="400" src="https://maps.google.com/maps?q=51.165691,10.451526&output=embed"></iframe>
+								<div class="col-md-6 " id="map_mapbox">
 									
-									<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1750679.0145499166!2d75.401169!3d31.018030999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spa!2sin!4v1676552277178!5m2!1spa!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 								</div>
 							</div>
 						</div>
@@ -1190,7 +1188,70 @@
 				$(".highlight :input").prop("disabled", true);
 				$(".push-plan :input").prop("disabled", true);
            });
+
+		   const defaultCoordinates = [10.451526, 51.165691];
+		   loadMap(defaultCoordinates)
          });
+
+		 function ValidateLatitude() {
+			$("#lblLat").hide();
+			var regexLat = new RegExp('^(\\+|-)?(?:90(?:(?:\\.0{1,6})?)|(?:[0-9]|[1-8][0-9])(?:(?:\\.[0-9]{1,6})?))$');
+			if (!regexLat.test($("#txtLat").val())) {
+				$("#lblLat").html("Invalid Latitude").show();
+			}
+		}
+
+		function ValidateLongitude() {
+			$("#lblLong").hide();
+			var regexLong = new RegExp('^(\\+|-)?(?:180(?:(?:\\.0{1,6})?)|(?:[0-9]|[1-9][0-9]|1[0-7][0-9])(?:(?:\\.[0-9]{1,6})?))$');
+			if (!regexLong.test($("#txtLong").val())) {
+				$("#lblLong").html("Invalid Longitude").show();
+			}
+		}
+
+		function loadMap(coordinates) {
+			mapboxgl.accessToken = '<?= $PK_MAPBOX ?>';
+			const map = new mapboxgl.Map({
+				container: 'map_mapbox',
+				style: 'mapbox://styles/mapbox/streets-v12',
+				center: coordinates,
+				zoom: 7,
+			});
+			const marker = new mapboxgl.Marker({
+				draggable: true,
+				properties: {
+					'marker-color': '#FF0000'
+				}
+
+			});
+			marker.setLngLat(coordinates).addTo(map);
+
+			map.on('style.load', function() {
+				marker.on('dragend', function (e) {
+					let coordinates = e.lngLat;
+					const lngLat = marker.getLngLat();
+					setCoordinatesToForm(lngLat)
+				});
+				map.on('click', function(e) {
+					let coordinates = e.lngLat;
+					marker.setLngLat(coordinates).addTo(map);
+					setCoordinatesToForm(coordinates)
+				});
+			});
+		}
+
+		function setCoordinatesToForm(coordinates) {
+			$('#postcreate input[name="latitude"]').val(coordinates.lat);
+			$('#postcreate input[name="longitude"]').val(coordinates.lng);
+		}
+
+		function addToMap() {
+			const lat = $('#postcreate input[name="latitude"]').val();
+			const lng = $('#postcreate input[name="longitude"]').val();
+			if(lat != '' && lng != '') {
+				loadMap([lng, lat])
+			}
+		}
       </script>
 
 	

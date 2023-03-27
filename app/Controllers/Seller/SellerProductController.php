@@ -58,6 +58,8 @@ class SellerProductController extends BaseController
 		);
         $data['subscriptionPlans'] = $SubscriptionModel->where($where)->findAll();
 
+		// Load mapbox key
+		$data['PK_MAPBOX'] = env('MAPBOX_PUBLIC_TOKEN');
         $data['title'] = 'Post Add' ;
         return view('frontend/Seller/create-product', $data);
        

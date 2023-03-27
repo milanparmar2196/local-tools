@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Tools</title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>/public/css/jquery-ui.css">
+    <link rel='stylesheet' href='<?php echo base_url(); ?>/public/css/mapbox-gl.css' />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/public/css/mapbox-gl-geocoder.css" type="text/css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/public/css/custom.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/public/sass/style.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/public/sass/responsive.css">
@@ -36,6 +38,8 @@
     <script type="text/javascript" src="<?php echo base_url(); ?>/public/js/daterangepicker.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+    <script src='<?php echo base_url(); ?>/public/js/mapbox-gl.js'></script>
+    <script src="<?php echo base_url(); ?>/public/js/mapbox-gl-geocoder.min.js"></script>
 </head>
 
 <body>
