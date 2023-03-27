@@ -72,47 +72,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/public/js/jquery-ui.js"></script>
-<script>
-	function ValidateLatitude() {
-		$("#lblLat").hide();
-		var regexLat = new RegExp('^(\\+|-)?(?:90(?:(?:\\.0{1,6})?)|(?:[0-9]|[1-8][0-9])(?:(?:\\.[0-9]{1,6})?))$');
-		if (!regexLat.test($("#txtLat").val())) {
-			$("#lblLat").html("Invalid Latitude").show();
-		}
-	}
 
-	function ValidateLongitude() {
-		$("#lblLong").hide();
-		var regexLong = new RegExp('^(\\+|-)?(?:180(?:(?:\\.0{1,6})?)|(?:[0-9]|[1-9][0-9]|1[0-7][0-9])(?:(?:\\.[0-9]{1,6})?))$');
-		if (!regexLong.test($("#txtLong").val())) {
-			$("#lblLong").html("Invalid Longitude").show();
-		}
-	}
-
-	$(document).ready(function() {
-
-		$("#submit_coordinates").click(function() {
-			if (!$('#latitude').val()) {
-				alert('Please add latitude!');
-			} else {
-				if (!$('#longitude').val()) {
-					alert('Please add longitude!');
-				} else {
-					var html = '<iframe width="100%" height="400" src="https://maps.google.com/maps?q=51.165691,10.451526&output=embed"></iframe>';
-					var long = $('#longitude').val();
-					var lat = $('#latitude').val();
-					//html += '<p> <b>$'+data[count].amount+'</b></p>';
-					var url = 'https://maps.google.com/maps?q=' + lat + ',' + long + '&output=embed';
-					html = '<iframe width="100%" height="400" src="' + url + '"></iframe>'
-					$('#g_mapp').html(html);
-					// alert(url);
-				}
-			}
-
-		});
-
-	});
-</script>
 <script>
 	$(document).ready(function() {
 
