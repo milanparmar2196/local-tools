@@ -79,9 +79,9 @@
         const category = $("#nav-category").val()
         if (category == 0) {
             getHighlightedPosts()
-            getPosts(1, -2) // -2 for except highlighted posts
+            getPosts(1, 'exceptHighlight')
         } else {
-            getPosts(1, 0) // 0 for all posts
+            getPosts(1, 'allPosts')
         }
     });
 
@@ -102,7 +102,7 @@
                     category,
                     subCategory,
                     search,
-                    subscriptionCategory: 2,
+                    postType: 'highlight',
                     pagination: false
                 }
             },
@@ -154,7 +154,7 @@
         });
     }
 
-    function getPosts(page, subscriptionCategory) {
+    function getPosts(page, postType) {
         const base_url = '<?= base_url(); ?>';
         let order = 'asc'
         const zip = $("#nav-zipcode").attr("data-id")
@@ -162,9 +162,16 @@
         const category = $("#nav-category").val()
         const subCategory = $("#subCategoryId").val()
         const search = $("#nav-search").val()
+        const minPrice = $("#minPrice").val()
+        const maxPrice = $("#maxPrice").val()
+        let brands = [];
+        $('input[name="brands"]:checked').each(function() {
+            brands.push(this.value);
+        });
         if (category == 0) {
             order = 'desc'
         }
+
         $.ajax({
             url: `${base_url}/get-posts`,
             method: 'get',
@@ -175,7 +182,10 @@
                     category,
                     subCategory,
                     search,
-                    subscriptionCategory,
+                    brands: JSON.stringify(brands),
+                    minPrice,
+                    maxPrice,
+                    postType,
                     page,
                     order,
                     pagination: true
@@ -218,6 +228,7 @@
                             $("#loadMoreBtn").css("display", "none")
                         }
                         $("#loadMoreBtn").val(result.page)
+                        $("#loadMoreBtn").attr("data-postType", result.postType)
                     }
                 }
             }
@@ -226,6 +237,7 @@
 
     function loadMorePosts(event) {
         const page = $(event).val()
-        getPosts(page)
+        const postType = $(event).attr('data-postType')
+        getPosts(page, postType)
     }
 </script>

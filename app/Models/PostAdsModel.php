@@ -230,7 +230,7 @@ class PostAdsModel extends Model
 
         $builder = $this->db->table('post_ads');
 
-        $builder->select("post_ads.title, post_ads.amount, post_ads.duration, tbl_countries.name AS country_name, states.name AS state_name, tbl_cities.name AS city_name, GROUP_CONCAT(gallerypost_ads.image_name) as images, categories.name as category_name, $distanceString");
+        $builder->select("post_ads.title, post_ads.amount, IFNULL(subscription_plans.plan_id, 0) as plan_id, post_ads.duration, tbl_countries.name AS country_name, states.name AS state_name, tbl_cities.name AS city_name, GROUP_CONCAT(gallerypost_ads.image_name) as images, categories.name as category_name, $distanceString");
 
         $builder->join('subscription_plans', 'post_ads.ad_plan_id = subscription_plans.id', 'LEFT');
         $builder->join('subscription_category', 'subscription_category.id = subscription_plans.plan_id', 'LEFT');
@@ -243,11 +243,11 @@ class PostAdsModel extends Model
         $builder->where('post_ads.ads_time <=', $today);
         $builder->where('post_ads.ads_end_datetime >=', $today);
         $builder->where('post_ads.status', 'active');
-
-        if (isset($filters['subscriptionCategory']) && $filters['subscriptionCategory'] == 2) {
-            $builder->where('subscription_category.id = 2');
-        } else if (isset($filters['subscriptionCategory']) && $filters['subscriptionCategory'] == -2) {
-            $builder->where('subscription_category.id != 2');
+        
+        if ($filters['postType'] == 'highlight') {
+            $builder->where('subscription_plans.plan_id = 2');
+        } else if ($filters['postType'] == 'exceptHighlight') {
+            $builder->having('plan_id != 2');
         }
 
         if (isset($filters['zipcode']) && $filters['zipcode'] != 0) {
@@ -255,17 +255,27 @@ class PostAdsModel extends Model
         }
 
         if (isset($filters['category']) && $filters['category'] != 0) {
-            $builder->where('categories.id =', $filters['category']);
-            $builder->where('categories.parent_id = 0');
+            $builder->where('post_ads.category_id =', $filters['category']);
         }
 
         if (isset($filters['subCategory']) && $filters['subCategory'] != 0) {
-            $builder->where('categories.id =', $filters['subCategory']);
-            $builder->where('categories.parent_id != 0');
+            $builder->where('post_ads.sub_category_id =', $filters['subCategory']);
         }
 
         if (isset($filters['search']) && $filters['search'] != '') {
             $builder->like('post_ads.title', $filters['search']);
+        }
+
+        if (isset($filters['brands']) && count($filters['brands']) > 0) {
+            $builder->whereIn('post_ads.brand_id', $filters['brands']);
+        }
+
+        if (isset($filters['minPrice'])) {
+            $builder->where('post_ads.amount >=', $filters['minPrice']);
+        }
+
+        if (isset($filters['maxPrice']) && $filters['maxPrice'] < 100000) {
+            $builder->where('post_ads.amount <=', $filters['maxPrice']);
         }
 
         if (isset($filters['distance']) && $filters['distance'] != 0) {
@@ -277,7 +287,7 @@ class PostAdsModel extends Model
         }
 
         $builder->groupBy('post_ads.id');
-
+        
         if (isset($filters['order']) && $filters['order'] != '') {
             $builder->orderBy('subscription_category.id', $filters['order']);
         }

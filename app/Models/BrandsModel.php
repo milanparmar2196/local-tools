@@ -58,5 +58,12 @@ class BrandsModel extends Model
         $query = $this->db->table('brands')->update($data, array('id' => $id));
     }
 
+    public function getAllBrands() {
+        $builder = $this->db->table('brands');
+        $builder->where('status = 1');
+        $result = $builder->get()->getResultArray();
+        return $result;
+    }
+
 
 }
