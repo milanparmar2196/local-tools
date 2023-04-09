@@ -115,8 +115,14 @@ class HomepageController extends BaseController
             $filters['zipcode'] = $zipcodeRow->zipcode;
 
             if (isset($filters['distance']) && $filters['distance'] != 0) {
-                $lat = $zipcodeRow->lat;
-                $long = $zipcodeRow->lon;
+                $mapboxGeocodingUrl = env("MAPBOX_GEOCODING_URL");
+                $mapboxPublicToken = env("MAPBOX_PUBLIC_TOKEN");
+                $client = \Config\Services::curlrequest();
+                $response = $client->request('GET', "$mapboxGeocodingUrl/v5/mapbox.places/$zipcodeRow->zipcode.json?proximity=ip&access_token=$mapboxPublicToken");
+                $mapboxBody = json_decode($response->getBody());
+                $coordinates = $mapboxBody->features[0]->geometry->coordinates;
+                $lat = $coordinates[1];
+                $long = $coordinates[0];
             }
         } else {
             // Distance filter only work if location provided
@@ -124,7 +130,7 @@ class HomepageController extends BaseController
         }
         $filters['lat'] = $lat;
         $filters['long'] = $long;
-
+        
         // Brands
         if(isset($filters['brands'])) {
             $filters['brands'] = json_decode($filters['brands']);

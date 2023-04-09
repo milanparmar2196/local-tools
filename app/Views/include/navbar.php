@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <div class="select-distance">
+    <div class="select-location">
         <div class="input-group">
             <label class="input-group-text" for="nav-distance">
                 <img src="<?= base_url(); ?>/public/images/icons/target.svg" width="18px">
@@ -66,19 +66,16 @@
 
     <ul class="d-flex gap-3 align-items-center top-nav-listing justify-content-end pad-0">
         <li class="hide-l"><img src="<?= base_url(); ?>/public/images/icons/target.svg" width="20px"></li>
-        <li class="hide-m"><a href="<?= base_url() . "/allnotifications" ?>"><i class="bi bi-bell"></i></a></li>
+        <!-- <li class="hide-m"><a href="/allnotifications" ?>"><i class="bi bi-bell"></i></a></li> -->
+        <li class="hide-m"><i class="bi bi-bell"></i></li>
         <li class="hide-l"><i class="bi bi-geo-alt"></i></li>
         <li><i class="bi bi-cart"></i></li>
-        <li class="hide-l"><i class="bi bi-person-circle"></i></li>
-        <li class="hide-l"><i class="bi bi-person-circle"></i></li>
+
         <?php
         $session = session();
         if ($session->get('id')) {
         ?>
-            <!-- <li class="login-link dropdown show"><a href="<?php echo base_url(); ?>/profile" ><?= $session->get('first_name') ?> </a>
-                        
-                    </li> -->
-            <li class="hide-l"><i class="bi bi-person-circle"></i></li>
+            <li class="hide-l profile-menu"><i class="bi bi-person-circle"></i></li>
             <li class="login-link">
                 <a href="<?= base_url(); ?><?php
                                             if ($session->get('customer_type') == '1') {
@@ -95,15 +92,17 @@
         <?php
         } else {
         ?>
-            <li class="login-link"><a href="<?php echo base_url(); ?>/login">Login
-
-                </a></li>
+            <li class="login-link"><a href="<?php echo base_url(); ?>/login">Login</a></li>
+            <li class="hide-l profile-menu"><i class="bi bi-person-circle"></i></li>
         <?php
         }
         ?>
 
 
         <li><a href="<?= base_url('/seller/add-product'); ?>"><button class="btn btn-post">Post Ad</button></a></li>
+
+
+
     </ul>
 </div>
 

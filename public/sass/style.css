@@ -12429,3 +12429,130 @@ footer {
   padding: 17px 20px;
   color: #fff;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+/** Profile Side bar**/
+.profile-sidebar {
+	display:inline-block;
+	width:100%;
+	z-index: 999;
+	background: #fff;
+	position:fixed;
+	overflow:scroll;
+	top:0px;
+	right:-100%;
+	height:100%;
+	overflow-y: auto;
+	transition: all 0.3s ease-in-out;
+	display:none;
+}
+
+.profile-sidebar.intro {
+	right:-10%;
+}
+
+.profile-sidebar .menu-header {
+	padding-right:45px;
+}
+
+.profile-sidebar ul li {
+	position:relative;
+}
+
+.profile-sidebar .allGermany a {
+	background:url(../images/arrow-down-1.png) 80% 50% no-repeat;
+}
+
+.profile-sidebar .allGermany.intro a {
+	background:url(../images/arrow-up.png) 80% 50% no-repeat;
+}
+
+.profile-sidebar .allDistance a {
+	background:url(../images/arrow-down-1.png) 80% 50% no-repeat;
+}
+
+.profile-sidebar .allDistance.intro a {
+	background:url(../images/arrow-up.png) 80% 50% no-repeat;
+}
+
+.profile-sidebar .allGermany form,.profile-sidebar .allDistance form {
+	background: #F6F7FB;
+	border: 1px solid #F1F1F5;
+	border-radius: 15px;
+	    width: 80%;
+    margin: 0px 5%;
+	height:50px;
+	padding:5px 10px;
+	display:none;
+	margin-bottom:10px;
+}
+
+
+.profile-sidebar .allGermany form input,.profile-sidebar .allDistance form input {
+	border:none;
+	width:83%;
+	background:none;
+	border:none;
+	height:40px;
+}
+
+.profile-sidebar .allGermany form button,.profile-sidebar .allDistance form button {
+	width:15%;
+	background:none;
+	text-align: right;
+	height:40px;
+	border:none;
+}
+
+
+.profile-sidebar ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 0.625em;
+    border-top-right-radius: 0.625em;
+    border-bottom-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+}
+
+.profile-sidebar ul li {
+    list-style: none;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.profile-sidebar ul li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0.625em 0.938em;
+    font-size: 0.875em;
+    font-weight: 500;
+}
+
+.profile-sidebar ul li a img {
+    width: 1.563em;
+    margin-right: 0.938em;
+}
+
+.post-add {
+	border-top: 2px solid #E1E1E1;
+	border-bottom: 2px solid #E1E1E1;
+	padding:12px 30px;
+	padding-right:55px;
+}
+
+.post-add a{
+	color:#fff;
+	font-size:18px;
+	display:inline-block;
+	padding:10px 0px;
+	width:100%;
+	border-radius:8px;
+	text-align:center;
+	text-decoration:none;
+	background:#FFC10E;
+}
+
