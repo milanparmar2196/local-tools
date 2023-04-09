@@ -11,8 +11,6 @@
     }
 </style>
 <div class="main">
-    <!-- Mobile Menu -->
-    <?php echo $this->render('include/m-sidebar'); ?>
     <!---------main Sidebar--------------->
     <?php echo $this->render('include/sidebar'); ?>
     <input type="hidden" id="subCategoryId" value="<?= (isset($filters['subCategory'])) ? $filters['subCategory'] : 0 ?>" />
@@ -74,6 +72,61 @@
 
 
 <?php echo $this->render('include/footer'); ?>
+<script>
+        $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+      });
+      </script>
+	  <script>
+		$(document).ready(function(){
+		  $(".profile-menu").click(function(){
+			$(".profile-sidebar").toggleClass('intro');
+		  });
+		});
+		</script>
+		<script>
+		$(document).ready(function(){
+		  $("li.allGermany a").click(function(){
+			$("form.Germany").toggle('');
+			$("li.allGermany").toggleClass('intro');
+		  });
+		  $("li.allDistance a").click(function(){
+			$("form.distance").toggle('');
+			$("li.allDistance").toggleClass('intro');
+		  });
+		});
+		</script>
 <script>
     $(document).ready(function() {
         const category = $("#nav-category").val()

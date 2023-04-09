@@ -75,6 +75,10 @@
   .slick-slide .productbox {
     margin-bottom: 0px !important;
   }
+  
+  .profile-sidebar {
+	  display:block;
+  }
 }
 @media screen and (min-device-width: 280px) and (max-device-width: 320px) {
   .m-sidebar {

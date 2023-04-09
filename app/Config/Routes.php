@@ -62,7 +62,10 @@ $routes->match(['get', 'post'], '/product/cart', 'CartController::sendcart');
 $routes->match(['get', 'post'], '/cart', 'CartController::index');
 
 //   Checkout Routes
-$routes->match(['get', 'post'], '/checkout', 'Checkout::index');
+// $routes->match(['get', 'post'], '/checkout', 'Checkout::index');
+$routes->get('/checkout', 'Checkout::checkout');
+$routes->get('/success', 'Checkout::success');
+$routes->get('/cancel', 'Checkout::cancel');
 
 /*---------------------------------
 ************************************
