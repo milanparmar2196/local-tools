@@ -54,7 +54,7 @@ class Checkout extends BaseController
                 'quantity' => 1,
             ],
         ];
-        $data['metaData'] = "meta data";
+        $data['metaData'] = [];
         $data['successUrl'] = $config->baseURL . 'success';
         $data['cancelUrl'] = $config->baseURL . 'cancel';
         $url = $this->stripeCheckout($data);
